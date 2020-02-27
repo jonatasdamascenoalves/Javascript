@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    width: auto;
+    height: 70px;
+    background-color: black;
+    margin: auto;
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 10px;
+    border: red 6px solid;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+form {
+    color: white;
+    font-weight: bold;
+}
+
+#box {
+    background-color: honeydew;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 420px;
+    border-radius: 30px;
+    border: red 6px solid;
+    padding: 20px;
+    background-image: url(https://i2.wp.com/multarte.com.br/wp-content/uploads/2019/01/fundo-3d-banner18.png?fit=1920%2C1080&ssl=1)
+}
+
+body {
+    background-image: url(https://c.wallhere.com/photos/b5/d9/1600x1200_px_abstract_Justin_Maller-781087.jpg!d);
+    
+}

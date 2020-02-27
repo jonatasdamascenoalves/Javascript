@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../Javascript/assets/css/formulario.css">
+    <link rel="icon" href="../Javascript/assets/img/formulario.png">
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <br><br>
+    <form action="#"  id="box">
+        <label for="">
+            Nome:
+        </label><br>
+        <input type="text" id="nome" maxlength="15" size="15" placeholder="Digite seu nome" required>
+        <br><br>
+        <label for=""> Idade:</label>
+        <input type="number" id="Idade" min="18" max="29">
+        <br><br>
+        <label for="">Nascimento:</label>
+        <input type="date" id="nascimento">
+        <br><br>
+        <label for="">e-mail: </label>
+        <input type="email" id="email" max="15" size="15" placeholder="Digite seu e-mail:" required>
+        <br><br>
+
+        <label for="">Observação:</label>
+        <textarea rows="10" cols="20" id="Observacao"></textarea>
+        <br><br>
+
+        <select id="Estados">
+            <option>Selecione o Estado</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select>
+        <br><br>
+        <label for="">Senha:</label>
+        <input type="password" id=" senha">
+        <br><br>
+        <!-- <label for="">Sexo</label> -->
+        <input type="radio" name="sexo" id="sexo" value="F">
+        <label for="F">Feminino</label><br>
+
+        <input type="radio" name="sexo" id="sexo" value="M">
+        <label for="M">Masculino</label><br>
+        <br>
+        <input type="checkbox" id="Valetransportes">
+        <label for="">Vale Transporte</label><br>
+
+        <input type="checkbox" id="Valerefeicao">
+        <label for="">Vale Refeição</label><br>
+        <br>
+        <input type="submit" value="Enviar" onclick="mostrar()" >
+        <br>
+        <input type="reset" value="Limpar dados">
+        <br>
+    </form>
+    <script src="../Javascript/assets/js/formulario.js"></script>
+
+</body>
+
+</html>
