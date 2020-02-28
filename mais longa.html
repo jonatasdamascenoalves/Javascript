@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var texto= prompt("Informe uma Frase")
+        var vetor = texto.split(" ");
+        var resultado =[]
+        
+
+        for (var i=0; i<vetor.length;i++) {
+            if(vetor[i].length > resultado.length)
+            resultado=vetor[i]
+        }
+        document.write(resultado)
+
+    </script>
+</body>
+</html>
