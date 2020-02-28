@@ -17,3 +17,4 @@ var textoLiverde = document.querySelectorAll(".verde")
 for (var i = 0; i<textoLiverde.length; i++) {
     alert("conteudo pego queryselection-" +textoLiverde[i].textContent)
 }
+// 
