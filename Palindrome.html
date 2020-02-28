@@ -7,8 +7,18 @@
     <title>Palindrome</title>
 </head>
 <body>
-    <script>
-        
+
+
+    <script> 
+    var n = prompt ("Escreva uma palavra para verificar se ela é uma palindrome")
+
+    var num = n.split('').reverse().join('');
+    if (num==n){
+        alert("A palavra é:" + n+ "\nInvertida é:" + num + "\nEla é Palíndrome")
+    }
+    else { 
+        alert("A palavra é:" + n+ "\nInvertida é:" + num + "\nEla não é Palíndrome")
+    }
         </script>
 </body>
 </html>
